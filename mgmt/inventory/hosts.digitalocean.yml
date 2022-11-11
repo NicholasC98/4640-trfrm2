@@ -1,0 +1,15 @@
+---
+plugin: community.digitalocean.digitalocean
+api_token: '{{ lookup("DO_API_TOKEN", "../do_token") }}'
+attributes:
+  - id
+  - name
+  - memory
+  - vcpus
+  - disk
+  - size
+  - image
+  - networks
+  - volume_ids
+  - tags
+  - region
