@@ -28,13 +28,13 @@
 
 On host machine, update and install ansible
 
-    Ensure pip is available on host machine
-    Use pip and install:
-        ansible
-        ansible-core
+Ensure pip is available on host machine
+Use pip and install:
+    - ansible
+    - ansible-core
         
-#Ansible Run 
+# Ansible Run 
 
-    Run playbooks:
-        ansible-playbook nginx_setup.yml
+Run playbooks:
+    - ansible-playbook nginx_setup.yml
 
